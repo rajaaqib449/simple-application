@@ -1,0 +1,57 @@
+<div class="main">
+    <nav class="navbar navbar=light bg-primary">
+        <div class="container-fluid">
+            <h1 style="color: aliceblue;">Add Data</h1>
+        
+        </div>
+    </nav>
+    <form [formGroup]="newform" >
+      <div class="mb-3">
+       
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Clothe Name</mat-label>
+                    <input matInput type="String" formControlName="clotheName"  />
+                    <mat-error *ngFor="let validation of formValidationMessage.clotheName">
+                      
+                            {{validation.message}}
+                  
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Clothes type</mat-label>
+                    <input matInput type="String" formControlName="clotheType" />
+                 
+                </mat-form-field>
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Clothe Brand Name</mat-label>
+                    <input matInput type="String" formControlName="clotheBrandName" />
+               
+                </mat-form-field>
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Gender</mat-label>
+                    <input matInput type="String" formControlName="Gender"  />
+                 
+                </mat-form-field>
+          
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Quantity</mat-label>
+                    <input matInput type="number" formControlName="Quntity"  />
+                    <mat-error *ngFor="let validation of formValidationMessage.Quntity">
+                      
+                        {{validation.message}}
+                      
+                </mat-error>
+                </mat-form-field>
+
+
+      </div>
+      
+    </form>
+
+</div>
+<div class="col-md-3">
+    <button class="btn btn-info" (click)="postClothes()">ADD</button>
+    <button class="btn btn-danger mx-3" routerLink="/Clothes">close</button>
+</div>
+
+

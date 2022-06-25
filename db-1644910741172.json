@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "firstname": "asdfasd",
+      "lastname": "fasdf",
+      "email": "sdfasdf",
+      "mobile": "sdaf",
+      "salry": "asdfaasdf"
+    },
+    {
+      "id": 5,
+      "firstname": "asdfasdfas",
+      "lastname": "dfsadfasd",
+      "email": "fsadfsadf",
+      "mobile": "sadfasdf",
+      "salry": "sdafasdfsadf"
+    },
+    {
+      "id": 6,
+      "firstname": "sdaf",
+      "lastname": "sdfsdaf",
+      "email": "sdafsdaf",
+      "mobile": "sdaf",
+      "salry": "sdafsdaf"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

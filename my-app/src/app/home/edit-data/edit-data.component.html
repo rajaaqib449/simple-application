@@ -1,0 +1,57 @@
+<div class="main">
+    <nav class="navbar navbar=light bg-primary">
+        <div class="container-fluid">
+            <h1 style="color: aliceblue;">Edit Data</h1>
+        
+        </div>
+    </nav>
+    <form [formGroup]="newform" >
+      <div class="mb-3">
+       
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>First Name</mat-label>
+                    <input matInput type="String" formControlName="firstname" />
+                 
+                </mat-form-field>
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput type="String" formControlName="lastname" />
+                 
+                </mat-form-field>
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Email ID</mat-label>
+                    <input matInput type="String" formControlName="email"  placeholder="abc@example.com"   />
+                    <mat-error *ngFor="let validation of formvalidationmessage.email">
+                      
+                        {{validation.message}}
+              
+                </mat-error>
+                </mat-form-field>
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Gender</mat-label>
+                    <input matInput type="String" formControlName="Gender" />
+                   
+                </mat-form-field>
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Mobile No</mat-label>
+                    <input matInput type="String" formControlName="mobile"  />
+                 
+                </mat-form-field>
+                <mat-form-field  class="form-group col-md-2" appearance="outline">
+                    <mat-label>Salary</mat-label>
+                    <input matInput type="String" formControlName="salry"  />
+                 
+                </mat-form-field>
+
+
+      </div>
+      
+    </form>
+
+</div>
+<div class="col-md-3">
+    <button class="btn btn-info" (click)="onUpdate()" >update</button>
+    <button  class="btn btn-danger mx-3" routerLink="/Home">close</button>
+</div>
+
+

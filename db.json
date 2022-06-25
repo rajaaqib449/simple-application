@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "firstname": "kashif",
+      "lastname": "khan",
+      "email": "kahsif@gmail.conm",
+      "Gender": "Male",
+      "mobile": 31265626,
+      "salry": "3000",
+      "id": 15
+    },
+    {
+      "firstname": "ajksdfjh",
+      "lastname": "qwert",
+      "email": "jkasdf@gmail.com",
+      "Gender": "Female",
+      "mobile": 2512515113212,
+      "salry": 12321,
+      "id": 16
+    },
+    {
+      "id": 17,
+      "firstname": "lksdfmlsk",
+      "lastname": "DKLSFGKL",
+      "email": "raja@gmail.com",
+      "Gender": "KLDFGLK",
+      "mobile": 31234274094,
+      "salry": 1210
+    },
+    {
+      "firstname": "raja ",
+      "lastname": "aqib",
+      "email": "raja123@gmail.com",
+      "Gender": "male",
+      "mobile": 3123427094,
+      "salry": "60000",
+      "id": 18
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-expansion-panel-header{
+    height: 50px !important;
+    background-color: #0BA698 !important;
+    color: rgb(255, 255, 255) ;
+    font-family: system-ui;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  .mat-elevation-z8{
+    width: 100%;
+  }
+  .list{
+margin-block: 10%;
+  }
+
+  .container{
+    border:5px solid rgb(119, 110, 110);
+
+  }
+
+  .col{
+    border: 3px solid forestgreen;
+  }
+  h1{
+    text-align: center;
+   color: #0BA698;
+   text-shadow: #0BA698;
+  font-size: 1rem;
+  }
+ .col-md-6{
+   border: 1px solid rgb(86, 136, 201);
+ }
+ .col-md-12{
+   border: #0BA698;
+ }
+ .title{
+   border: #0BA698
+ }

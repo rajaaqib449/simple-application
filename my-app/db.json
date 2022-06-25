@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "clotheName": "sdfasdf",
+      "clotheType": "asdfasdf",
+      "clotheBrandName": "rajaaib339@gmail.com",
+      "Gender": "mal3e`",
+      "Quntity": 234234
+    },
+    {
+      "id": 2,
+      "firstname": "agdasdf",
+      "lastname": "arase",
+      "email": "raja@gmail.com",
+      "Gender": "male",
+      "mobile": 39850819,
+      "salry": 454
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

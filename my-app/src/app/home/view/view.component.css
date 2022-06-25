@@ -1,0 +1,19 @@
+
+
+  .testTable td{
+   padding-bottom: 10px !important;
+    font-size: x-large;
+   
+  }
+.matCardHeader{
+    display: block !important;
+    justify-content: space-between !important;
+    height: 50px !important;
+    background-color: #314d94;
+    color: #ffffff;
+    font-family: system-ui;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 14px 0px 0px 27px;
+    border-radius: inherit;
+}

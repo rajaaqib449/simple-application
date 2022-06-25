@@ -1,0 +1,55 @@
+<div class="main">
+
+<nav class="navbar navbar=light bg-primary">
+    <div class="container-fluid">
+        <h1 style="color: aliceblue;">View Data</h1>
+    
+    </div>
+</nav>
+<mat-sidenav-content class="m-0" style="justify-content: center !important; padding: 25px 0px 0px 30px;"> 
+    <div class="row col-md-12">
+
+        <table class="testtable">
+
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <td>{{ basicInfor?.firstname}}</td>
+                <th>
+                    Last name
+                </th>
+                <td>{{ basicInfor?.lastname}}</td>
+            </tr>
+            <tr>
+                <th>
+                    last Name
+                </th>
+                <td>{{ basicInfor?.lastname}}</td>
+                <th>
+                    Email ID
+                </th>
+                <td>{{ basicInfor?.email}}</td>
+            </tr>
+            <tr>
+                <th>
+                    Mobile No
+                </th>
+                <td>{{ basicInfor?.mobile}}</td>
+                <th>
+                    Salary 
+                </th>
+                <td>{{ basicInfor?.salry}}</td>
+            </tr>
+                    <tr>
+                          <th>Gender</th>  
+                            <td>{{basicInfor?.Gender}}</td>
+                    </tr>
+        </table>
+
+    </div>
+       
+</mat-sidenav-content>
+<button class="btn btn-danger mx-3" routerLink="/Home">Close</button>
+
+</div>

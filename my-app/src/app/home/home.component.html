@@ -1,0 +1,138 @@
+<!-- <div class="main">
+    <mat-expansion-panel >
+        <mat-expansion-panel-header  >
+          <mat-panel-title>
+           Persons 
+          </mat-panel-title>
+         
+        </mat-expansion-panel-header>
+        <div class="row mt-3">
+        <mat-form-field class="form-group col-md-3" appearance="outline">
+            <mat-label>Childern</mat-label>
+            <mat-select>
+                <mat-option>
+                       1 
+                </mat-option>
+                <mat-option>
+                    1 
+             </mat-option>
+                
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="form-group col-md-3" appearance="outline">
+            <mat-label>Childern </mat-label>
+            <mat-select>
+                <mat-option>
+                       1 
+                </mat-option>
+                <mat-option>
+                    1 
+             </mat-option>
+                
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="form-group col-md-3" appearance="outline">
+            <mat-label>Childern </mat-label>
+            <mat-select>
+                <mat-option>
+                       1 
+                </mat-option>
+                <mat-option>
+                    1 
+             </mat-option>
+                
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="form-group col-md-3" appearance="outline">
+            <mat-label>Childern </mat-label>
+            <mat-select>
+                <mat-option>
+                       1 
+                </mat-option>
+                <mat-option>
+                    1 
+             </mat-option>
+                
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="form-group col-md-3" appearance="outline">
+            <mat-label>Childern </mat-label>
+            <mat-select>
+                <mat-option>
+                       1 
+                </mat-option>
+                <mat-option>
+                    1 
+             </mat-option>
+                
+            </mat-select>
+        </mat-form-field>
+    </div>
+      </mat-expansion-panel>
+      <h1>my name is {{title}}</h1>
+        <h3>{{getvalue()}}</h3>
+</div> -->
+<nav class="navbar navbar=light bg-primary">
+    <div class="container-fluid">
+        <h1 style="color: aliceblue;">Employe Mangment</h1>
+        <button routerLink="/Adddata" class="btn btn-danger mx-3">Add Employe</button>
+    </div>
+</nav>
+<table class="table mt-3">
+    <thead>
+        <tr>
+       
+            <th scope="col">First Name</th>
+            <th scope="col"> Last Name</th>
+            <th scope="col"> Email ID</th>
+            <th scope="col">Gender</th>
+            <th scope="col"> Mobile No</th>
+            <th scope="col">Salry</th>
+            <th scope="col">action</th>
+          
+
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of employeeData">
+     
+            <td>{{user.firstname}}</td>
+            <td>{{user.lastname}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.Gender}}</td>
+            <td>{{user.mobile}}</td>
+            <td>{{user.salry}}</td>
+            <td>
+                
+                <button  routerLink="/editData/{{user.id}}" class="btn btn-info">Edit</button>
+                <button   class="btn btn-danger mx-3" (click)="onDelete(user)">Delete</button>
+                <mat-icon routerLink="/View/{{user.id}}" matTooltip="View" class="btnView ml-2">
+                remove_red_eye</mat-icon>
+            </td>
+            
+        </tr>
+        
+    </tbody>
+    
+</table>
+
+
+
+  <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ADD Data</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <label>name</label>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div> -->

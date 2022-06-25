@@ -1,0 +1,37 @@
+
+.title{
+ place-items: centers;
+width: 100%;
+text-align: center;
+text-size-adjust: 20%;
+
+
+
+
+color:rgb(26, 21, 21);
+font-weight: bold
+}
+mat-sidenav{
+    width: 15%;
+    background-color: rgb(194, 194, 221);
+
+
+
+}
+
+.toolbarimage{
+
+
+    padding: 5px;
+    width: 100px;
+  
+}
+.icon {
+size: 90%;
+color: black;
+}
+.col-md-12{
+  background-color: #61B1FF;
+
+
+}
